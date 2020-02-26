@@ -2,7 +2,7 @@
 
 ## The Problem
 
-Let's say you're switching everything in your node codebase over to `import`/`export` syntax.
+Let's say you're switching everything in your node codebase from tboring old `require` over to `import`/`export` syntax.
 
 ```
 // Sooooo yesterday
@@ -61,7 +61,7 @@ RUN npm ci
 CMD npm start
 ```
 
-Let's add a file called `Dockerfile` (no extension) to the root of the project and copy that into it.
+Let's add a file called `Dockerfile` (no extension) to the root of the project and copy the above Dockerese into it.
 
 Then, let's pack stuff into the container by building it into an image:
 
@@ -146,4 +146,4 @@ run:
 
 ### Deployment
 
-Run `git push heroku master`, and in a short while our app will be running publicly on Heroku in an identical environment to the one we ran locally!
+Run `git push heroku master`, and in a short while our app will be runnin gpublicly on Heroku in an identical environment to the one we ran locally!
